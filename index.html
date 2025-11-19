@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Імпорт/Експорт Бізнес</title>
+  <title>Каталог товарів | Імпорт/Експорт Бізнес</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -11,7 +11,7 @@
     <nav>
       <ul>
         <li><a href="#home">Головна</a></li>
-        <li><a href="#services">Послуги</a></li>
+        <li><a href="#products">Товари</a></li>
         <li><a href="#about">Про нас</a></li>
         <li><a href="#benefits">Переваги</a></li>
         <li><a href="#testimonials">Відгуки</a></li>
@@ -19,52 +19,55 @@
       </ul>
     </nav>
     <section id="home">
-      <h1>Міжнародний імпорт та експорт</h1>
-      <p>Ефективні рішення для вашого бізнесу на глобальному ринку.</p>
-      <button class="btn main-btn">Запитати консультацію</button>
-      <a class="btn cta-btn" href="#services">Дізнатись більше</a>
+      <h1>Каталог наших товарів</h1>
+      <p>Якісна продукція для вашого бізнесу та дому. Швидка доставка і професійний сервіс!</p>
+      <a class="btn main-btn" href="#products">Дивитися всі товари</a>
     </section>
   </header>
 
   <main>
-    <section id="services">
-      <h2>Наші послуги</h2>
-      <div class="service-cards">
-        <div class="card">
-          <h3>Імпорт товарів</h3>
-          <p>Організація поставок з Європи, США, Азії. Контроль логістики та документів.</p>
-          <button class="btn outline-btn">Детальніше</button>
+    <section id="products">
+      <h2>Наші товари</h2>
+      <div class="product-list">
+        <!-- Примеры товаров (замените на свои!) -->
+        <div class="product-card">
+          <img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg" alt="Плаття жіноче">
+          <h3>Плаття жіноче</h3>
+          <p>Класичне чорне плаття з натуральних матеріалів. Розміри: XS-XL.</p>
+          <span class="price">₴1999</span>
+          <button class="btn cta-btn">Замовити</button>
         </div>
-        <div class="card">
-          <h3>Експорт продукції</h3>
-          <p>Просування українських товарів на міжнародних ринках з повною підтримкою.</p>
-          <button class="btn main-btn">Оформити експорт</button>
+        <div class="product-card">
+          <img src="https://html5book.ru/wp-content/uploads/2015/10/shoes.jpg" alt="Чоловічі туфлі">
+          <h3>Чоловічі туфлі</h3>
+          <p>Зручні шкіряні туфлі для бізнесу та вечірок. Від 41 до 45 розміру.</p>
+          <span class="price">₴2599</span>
+          <button class="btn outline-btn">Купити</button>
         </div>
-        <div class="card">
-          <h3>Митне оформлення</h3>
-          <p>Підготовка декларацій, сертифікація, супровід на всіх етапах.</p>
-          <button class="btn icon-btn">
-            <span>Консультація митного експерта</span>
-            <svg height="17" width="17" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="12" fill="#22b573"/><path d="M17 9l-6 6-3-3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </button>
+        <div class="product-card">
+          <img src="https://html5book.ru/wp-content/uploads/2015/10/bag.jpg" alt="Сумка">
+          <h3>Сумка шкіряна</h3>
+          <p>Стильна чоловіча сумка для документів та ноутбука.</p>
+          <span class="price">₴1499</span>
+          <button class="btn icon-btn"><span>В корзину</span></button>
         </div>
+        <!-- Добавьте больше товаров по необходимости -->
       </div>
     </section>
 
     <section id="about">
       <h2>Про компанію</h2>
-      <p>Більше 10 років на ринку. Партнери з 25 країн. Ми допомагаємо знайти надійних постачальників і покупців для вашого бізнесу.</p>
-      <a class="btn outline-btn" href="#contacts">Зв’язатися з нами</a>
+      <p>Ми постачаємо товари найвищої якості українським та міжнародним партнерам. Наш каталог постійно оновлюється, щоб ви завжди знаходили саме те, що потрібно!</p>
+      <a class="btn outline-btn" href="#contacts">Написати нам</a>
     </section>
-
+    
     <section id="benefits">
       <h2>Переваги співпраці</h2>
       <ul class="benefits-list">
-        <li>Індивідуальні рішення для кожного клієнта</li>
-        <li>Юридична підтримка та консультації</li>
-        <li>Швидкий та безпечний документообіг</li>
+        <li>Широкий вибір якісних товарів</li>
         <li>Власна логістика та гарантія доставки</li>
-        <li>Підтримка 24/7 у месенджерах</li>
+        <li>Спеціальні пропозиції для постійних клієнтів</li>
+        <li>Професійна підтримка та консультації</li>
       </ul>
     </section>
 
@@ -72,33 +75,30 @@
       <h2>Відгуки клієнтів</h2>
       <div class="testimonial-cards">
         <div class="testimonial">
-          <p>“Професійно та швидко оформили експорт нашої продукції до Німеччини. Радимо всім!”</p>
-          <span>- ТОВ ЕкоМайстер</span>
+          <p>“Дуже зручний вибір, товар якісний, сервіс на висоті!”</p>
+          <span>- Марія, Київ</span>
         </div>
         <div class="testimonial">
-          <p>“Вирішили всі питання з митницею, ніяких затримок ― супер сервіс!”</p>
-          <span>- Олена, ФЛП</span>
+          <p>“Замовив туфлі — швидка доставка, все сподобалось!”</p>
+          <span>- Андрій, Харків</span>
         </div>
       </div>
     </section>
 
     <section id="contacts">
       <h2>Контакти</h2>
-      <p>info@tradecompany.com <br> +38 (068) 123-45-67</p>
+      <p>info@tradecompany.com<br>+38 (068) 123-45-67</p>
       <div class="button-row">
         <button class="btn main-btn" id="contactBtn">Написати нам</button>
         <a class="btn circle-btn" href="https://t.me/yourcompany" target="_blank" aria-label="Telegram">
           <svg width="22" height="22" fill="#36aeea" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#fff"/><path d="M38 13L10 22l4 2 2 8 6-5 6 5 3-15z" fill="#36aeea"/></svg>
-        </a>
-        <a class="btn circle-btn" href="https://facebook.com" target="_blank" aria-label="Facebook">
-          <svg width="22" height="22" fill="#257bdc" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22" fill="#fff"/><path d="M27 25h4l1-7h-5v-3c0-2 2-2 2-2h3V9h-4c-4 0-5 2-5 5v4h-4v7h4v14h6z" fill="#257bdc"/></svg>
         </a>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Імпорт/Експорт Бізнес. Всі права захищені.</p>
+    <p>© 2025 Каталог товарів. Всі права захищені.</p>
   </footer>
   <script src="script.js"></script>
 </body>
