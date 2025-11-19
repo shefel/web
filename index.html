@@ -3,154 +3,224 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Сухофрукти та Горіхи | Натуральні делікатеси</title>
+  <title>SunDry | Натуральні сухофрукти та горіхи преміум-якості</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <div class="logo">Zebo 🥭</div>
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <span class="logo-icon">☀️</span>
+        <span class="logo-text">SunDry</span>
+      </div>
       <ul class="nav-menu">
         <li><a href="#home">Головна</a></li>
-        <li><a href="#products">Товари</a></li>
+        <li><a href="#products">Асортимент</a></li>
         <li><a href="#about">Про нас</a></li>
-        <li><a href="#benefits">Переваги</a></li>
+        <li><a href="#why-us">Чому ми</a></li>
         <li><a href="#contacts">Контакти</a></li>
       </ul>
+      <button class="btn btn-header">Завантажити каталог</button>
     </nav>
   </header>
 
   <section id="home" class="hero">
+    <div class="hero-overlay"></div>
     <div class="hero-content">
-      <h1>Натуральні сухофрукти та горіхи</h1>
-      <p>Відбірна якість, багато корисних вітамінів. Доставка по всій Україні!</p>
-      <a href="#products" class="btn btn-primary">Переглянути товари</a>
+      <h1 class="hero-title">Відкрийте смак сонця</h1>
+      <p class="hero-subtitle">Сухофрукти та горіхи – природний смак і сонячна енергія в кожній жмені!</p>
+      <div class="hero-buttons">
+        <a href="#products" class="btn btn-primary">Переглянути асортимент</a>
+        <button class="btn btn-secondary" id="contactHeroBtn">Зв'язатися з нами</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">✓</div>
+          <h3>Багатий смак</h3>
+          <p>Перевірені постачальники</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🏆</div>
+          <h3>Гарантія якості</h3>
+          <p>Міжнародні сертифікати</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">🇺🇦</div>
+          <h3>Українська компанія</h3>
+          <p>Прозорість процесів</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">📦</div>
+          <h3>Товар у продажу</h3>
+          <p>Швидка доставка</p>
+        </div>
+      </div>
     </div>
   </section>
 
   <main>
-    <section id="products">
-      <h2>Наш асортимент</h2>
-      <div class="product-grid">
+    <section id="products" class="products-section">
+      <div class="container">
+        <h2 class="section-title">Наш асортимент</h2>
+        <p class="section-subtitle">Обираємо тільки найкращих виробників, які постачають сировину найвищої якості</p>
         
-        <div class="product-card" data-product="prune">
-          <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1580931193511-c37989563a17?auto=format&fit=crop&w=400&q=80" alt="Чернослив">
-            <div class="product-badge">ХІТ ПРОДАЖІВ</div>
-          </div>
-          <div class="product-info">
-            <h3>Чорнослив без кісточки</h3>
-            <p class="product-description">М'який, ароматний чорнослив преміум-класу. Ідеальний для компотів, десертів та перекусів. Джерело клітковини.</p>
-            <div class="product-details">
-              <span class="weight">Фасування: 250г / 500г / 1кг</span>
-              <span class="price">від ₴110/кг</span>
+        <div class="products-grid">
+          
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1577069861033-55d04cec4ef5?auto=format&fit=crop&w=800&q=80" alt="Чернослив" class="product-image">
+              <div class="product-badge hot">ХІТ ПРОДАЖУ</div>
             </div>
-            <button class="btn btn-order">Замовити</button>
-          </div>
-        </div>
-
-        <div class="product-card" data-product="apricot">
-          <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1519863763072-7cf14ef9f1cf?auto=format&fit=crop&w=400&q=80" alt="Курага">
-            <div class="product-badge new">НОВИНКА</div>
-          </div>
-          <div class="product-info">
-            <h3>Курага (абрикос сушений)</h3>
-            <p class="product-description">Солодка золотиста курага з південної України. Без барвників, природна солодкість. Багата калієм та вітаміном А.</p>
-            <div class="product-details">
-              <span class="weight">Фасування: 250г / 500г / 1кг</span>
-              <span class="price">від ₴120/кг</span>
+            <div class="product-content">
+              <h3 class="product-title">Чорнослив без кісточки</h3>
+              <p class="product-description">М'який, соковитий чорнослив преміум-класу. Великі плоди з насиченим смаком. Ідеально підходить для компотів, десертів та як корисний перекус. Багатий клітковиною та антиоксидантами.</p>
+              <div class="product-info">
+                <span class="product-weight">Фасування: 250г / 500г / 1кг</span>
+                <span class="product-price">від ₴110/кг</span>
+              </div>
+              <button class="btn btn-product">Замовити</button>
             </div>
-            <button class="btn btn-order">Замовити</button>
           </div>
-        </div>
 
-        <div class="product-card" data-product="raisin">
-          <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1519864230400-d1e8bedb6cc0?auto=format&fit=crop&w=400&q=80" alt="Изюм">
-          </div>
-          <div class="product-info">
-            <h3>Ізюм золотий та темний</h3>
-            <p class="product-description">Соковитий ізюм двох сортів. Без додавання цукру, натуральна сушка. Чудово підходить для випічки та здорового харчування.</p>
-            <div class="product-details">
-              <span class="weight">Фасування: 250г / 500г / 1кг</span>
-              <span class="price">від ₴85/кг</span>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1624526267942-ab0ff8a3e972?auto=format&fit=crop&w=800&q=80" alt="Курага" class="product-image">
+              <div class="product-badge new">НОВИНКА</div>
             </div>
-            <button class="btn btn-order">Замовити</button>
-          </div>
-        </div>
-
-        <div class="product-card" data-product="almond">
-          <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=400&q=80" alt="Миндаль">
-          </div>
-          <div class="product-info">
-            <h3>Мигдаль очищений</h3>
-            <p class="product-description">Ніжний мигдаль преміум-якості. Багатий вітаміном Е та корисними жирами. Для снеків, десертів та здорового харчування.</p>
-            <div class="product-details">
-              <span class="weight">Фасування: 200г / 500г / 1кг</span>
-              <span class="price">від ₴350/кг</span>
+            <div class="product-content">
+              <h3 class="product-title">Курага (абрикос сушений)</h3>
+              <p class="product-description">Золотиста солодка курага з південних регіонів. Без консервантів та барвників, природна сушка на сонці. Багата калієм, вітамінами А та Е. Чудовий вибір для здорового харчування.</p>
+              <div class="product-info">
+                <span class="product-weight">Фасування: 250г / 500г / 1кг</span>
+                <span class="product-price">від ₴120/кг</span>
+              </div>
+              <button class="btn btn-product">Замовити</button>
             </div>
-            <button class="btn btn-order">Замовити</button>
           </div>
-        </div>
 
-        <div class="product-card" data-product="walnut">
-          <div class="product-image">
-            <img src="https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80" alt="Грецкий орех">
-          </div>
-          <div class="product-info">
-            <h3>Грецький горіх</h3>
-            <p class="product-description">Цілі ядра та половинки грецького горіха. Очищені, свіжі, хрусткі. Відмінне джерело омега-3 та білка.</p>
-            <div class="product-details">
-              <span class="weight">Фасування: 200г / 500г / 1кг</span>
-              <span class="price">від ₴230/кг</span>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1587049352846-4a222e784acc?auto=format&fit=crop&w=800&q=80" alt="Изюм" class="product-image">
             </div>
-            <button class="btn btn-order">Замовити</button>
+            <div class="product-content">
+              <h3 class="product-title">Ізюм золотий та темний</h3>
+              <p class="product-description">Соковитий ізюм двох видів: золотистий та темний. Без додавання цукру, натуральна сушка. Відмінно підходить для випічки, мюслі та здорових перекусів. Багатий природними цукрами та мікроелементами.</p>
+              <div class="product-info">
+                <span class="product-weight">Фасування: 250г / 500г / 1кг</span>
+                <span class="product-price">від ₴85/кг</span>
+              </div>
+              <button class="btn btn-product">Замовити</button>
+            </div>
           </div>
-        </div>
 
-      </div>
-    </section>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1508736793122-f516e3ba5569?auto=format&fit=crop&w=800&q=80" alt="Миндаль" class="product-image">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Мигдаль очищений</h3>
+              <p class="product-description">Відбірний мигдаль преміум-якості. Ніжний смак та хрустка текстура. Багатий вітаміном Е, магнієм та корисними жирами. Ідеальний для випічки, десертів та як поживний снек.</p>
+              <div class="product-info">
+                <span class="product-weight">Фасування: 200г / 500г / 1кг</span>
+                <span class="product-price">від ₴350/кг</span>
+              </div>
+              <button class="btn btn-product">Замовити</button>
+            </div>
+          </div>
 
-    <section id="about">
-      <h2>Про нас</h2>
-      <p>Ми — команда, яка любить натуральні продукти. Постачаємо найякісніші сухофрукти та горіхи напряму від перевірених виробників. Кожна партія проходить контроль якості.</p>
-    </section>
+          <div class="product-card">
+            <div class="product-image-wrapper">
+              <img src="https://images.unsplash.com/photo-1592871703744-42943c0e50f3?auto=format&fit=crop&w=800&q=80" alt="Грецкий орех" class="product-image">
+            </div>
+            <div class="product-content">
+              <h3 class="product-title">Грецький горіх</h3>
+              <p class="product-description">Цілі ядра та половинки грецького горіха. Свіжі, очищені, хрусткі. Найбагатше джерело омега-3 серед горіхів. Підтримує роботу мозку та серцево-судинної системи. Відмінний вибір для салатів та випічки.</p>
+              <div class="product-info">
+                <span class="product-weight">Фасування: 200г / 500г / 1кг</span>
+                <span class="product-price">від ₴230/кг</span>
+              </div>
+              <button class="btn btn-product">Замовити</button>
+            </div>
+          </div>
 
-    <section id="benefits">
-      <h2>Чому обирають нас</h2>
-      <div class="benefits-grid">
-        <div class="benefit-card">
-          <div class="benefit-icon">✓</div>
-          <h3>100% натуральні</h3>
-          <p>Без барвників, консервантів та цукру</p>
-        </div>
-        <div class="benefit-card">
-          <div class="benefit-icon">🚚</div>
-          <h3>Швидка доставка</h3>
-          <p>По всій Україні за 1-3 дні</p>
-        </div>
-        <div class="benefit-card">
-          <div class="benefit-icon">💯</div>
-          <h3>Гарантія якості</h3>
-          <p>Повернення коштів, якщо не сподобалось</p>
         </div>
       </div>
     </section>
 
-    <section id="contacts">
-      <h2>Контакти</h2>
-      <p>📧 info@nutridry.com<br>📞 +38 (068) 123-45-67</p>
-      <div class="contact-buttons">
-        <button class="btn btn-primary" id="contactBtn">Написати нам</button>
-        <a href="https://t.me/yourcompany" class="btn btn-social" target="_blank">Telegram</a>
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2 class="section-title">Сонячний смак від природи!</h2>
+            <p>Ми постачаємо найвищої якості сухофрукти та горіхи. Співпрацюємо з обраними виробниками з різних регіонів, ретельно вибираючи продукти з унікальними смаковими якостями.</p>
+            <p>Кожен етап – від збору до пакування – ми ретельно контролюємо, щоб фінальний продукт відповідав найвищим стандартам якості та смаку.</p>
+          </div>
+          <div class="about-image">
+            <img src="https://images.unsplash.com/photo-1608797178974-15b35a64ede9?auto=format&fit=crop&w=800&q=80" alt="Про нас">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why-us" class="why-us-section">
+      <div class="container">
+        <h2 class="section-title">Чому обирають нас</h2>
+        <div class="why-us-grid">
+          <div class="why-us-card">
+            <div class="why-us-icon">🇺🇦</div>
+            <h3>Українська компанія</h3>
+            <p>Прозорість усіх процесів, легка комунікація та тривале партнерство</p>
+          </div>
+          <div class="why-us-card">
+            <div class="why-us-icon">⚡</div>
+            <h3>Товар у продажу</h3>
+            <p>Швидкий час доставки та адаптоване пакування</p>
+          </div>
+          <div class="why-us-card">
+            <div class="why-us-icon">🤝</div>
+            <h3>Адаптуємо умови</h3>
+            <p>Враховуємо платежі, розмір партії, естетику та пакування</p>
+          </div>
+          <div class="why-us-card">
+            <div class="why-us-icon">🌿</div>
+            <h3>BIO сертифікати</h3>
+            <p>Маємо міжнародні сертифікати якості</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="contacts-section">
+      <div class="container">
+        <h2 class="section-title">Зацікавлені співпрацею?</h2>
+        <p class="section-subtitle">Ведете бізнес, магазин чи просто бажаєте придбати більшу кількість наших продуктів?<br>Зв'яжіться з нашим представником!</p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="contact-icon">📧</span>
+            <span>info@sundry.ua</span>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">📞</span>
+            <span>+38 (068) 123-45-67</span>
+          </div>
+        </div>
+        <div class="contact-buttons">
+          <button class="btn btn-primary btn-large" id="contactBtn">Зв'язатися з нами</button>
+          <button class="btn btn-secondary btn-large">Завантажити каталог</button>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 NutriDry. Натуральні сухофрукти та горіхи. Всі права захищені.</p>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 SunDry. Натуральні сухофрукти та горіхи преміум-якості. Всі права захищені.</p>
+    </div>
   </footer>
 
   <script src="script.js"></script>
