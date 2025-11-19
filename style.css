@@ -541,3 +541,31 @@ body {
     font-size: 2rem;
   }
 }
+/* Добавь эти стили в конец твоего файла style.css */
+
+.hero-image-showcase {
+  max-width: 600px;
+  margin: 2rem auto 2.5rem;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-xl);
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-showcase-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: var(--transition);
+}
+
+.hero-image-showcase:hover .hero-showcase-img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .hero-image-showcase {
+    max-width: 90%;
+    margin: 1.5rem auto 2rem;
+  }
+}
