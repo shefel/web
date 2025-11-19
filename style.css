@@ -49,22 +49,21 @@ body {
   z-index: 1000;
   padding: 1rem 0;
 
-  .hero {
-  /* Картинка под текстом */
+}
+.hero {
+  /* твой URL сюда */
   background-image: url("https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1d423fc4-1890-46c0-b665-74f2db691221.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
-  /* Размер блока */
+  /* чтобы блок был высоким, как герой */
   min-height: 80vh;
 
-  /* Чтобы текст читался */
   position: relative;
-  color: #fff;
+  color: #fff; /* чтобы текст был читаемым */
 }
 
-}
 
 .nav {
   max-width: 1400px;
