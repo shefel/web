@@ -48,22 +48,7 @@ body {
   top: 0;
   z-index: 1000;
   padding: 1rem 0;
-
 }
-.hero {
-  /* твой URL сюда */
-  background-image: url("https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1d423fc4-1890-46c0-b665-74f2db691221.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  /* чтобы блок был высоким, как герой */
-  min-height: 80vh;
-
-  position: relative;
-  color: #fff; /* чтобы текст был читаемым */
-}
-
 
 .nav {
   max-width: 1400px;
@@ -187,7 +172,7 @@ body {
   font-size: 1.05rem;
 }
 
-/* Hero Section - ОБНОВЛЕННЫЙ с фоном */
+/* Hero Section с фоном-картинкой */
 .hero {
   position: relative;
   min-height: 90vh;
@@ -195,8 +180,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(135deg, rgba(212, 165, 116, 0.85) 0%, rgba(139, 111, 71, 0.85) 100%),
-              url('https://agi-prod-file-upload-public-main-use1.s3.amazonaws.com/27d48d4e-287c-436b-ac1f-3403cfa2c1c0');
+
+
+  background:
+    linear-gradient(135deg, rgba(212, 165, 116, 0.85) 0%, rgba(139, 111, 71, 0.85) 100%),
+    url('https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1d423fc4-1890-46c0-b665-74f2db691221.png');
+  
+
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -529,11 +519,11 @@ body {
   .nav-menu {
     display: none;
   }
-  
+
   .hero-title {
     font-size: 3.5rem;
   }
-  
+
   .about-content {
     grid-template-columns: 1fr;
   }
@@ -543,24 +533,24 @@ body {
   .products-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .hero-title {
     font-size: 2.5rem;
   }
-  
+
   .hero-subtitle {
     font-size: 1.125rem;
   }
-  
+
   .hero-buttons {
     flex-direction: column;
   }
-  
+
   .contact-info {
     flex-direction: column;
     gap: 1.5rem;
   }
-  
+
   .section-title {
     font-size: 2rem;
   }
