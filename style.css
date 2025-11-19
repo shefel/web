@@ -1,18 +1,21 @@
 :root {
-  --main-bg: #f9f6f1;
-  --accent-orange: #f79748;
-  --accent-amber: #ffce7b;
-  --accent-brown: #9c6432;
-  --accent-green: #b9ce9b;
-  --text-main: #654322;
-  --shadow: 0 6px 28px rgba(155,100,50,0.09);
-  --product-border: #f79748;
+  --bg-main: #fdf7f0;
+  --color-apricot: #faab5d;
+  --color-raisin: #6d4c41;
+  --color-walnut: #ccb497;
+  --color-almond: #e8c7a9;
+  --color-prune: #85598f;
+  --card-bg: #fff;
+  --shadow: 0 8px 32px rgba(170, 106, 53, 0.14);
+  --text-main: #3b2f1a;
+  --btn-gradient: linear-gradient(90deg, #faab5d 50%, #85598f 100%);
+  --border-radius: 18px;
 }
 
 body {
-  background: var(--main-bg);
+  background: var(--bg-main);
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
   color: var(--text-main);
-  font-family: 'Segoe UI', Arial, sans-serif;
   margin: 0;
 }
 
@@ -20,82 +23,84 @@ body {
 .product-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 34px;
+  gap: 40px;
   justify-content: center;
-  margin: 36px 0 0 0;
+  margin: 44px 0 0 0;
 }
 
 .product-card {
-  background: var(--accent-amber);
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  border-radius: 16px;
-  border: 2px solid var(--product-border);
-  padding: 26px 22px 22px 22px;
-  width: 240px;
+  width: 260px;
+  padding: 32px 20px 26px 20px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: box-shadow 0.22s, transform 0.16s, border-color 0.2s;
-  text-align: center;
-  margin-bottom: 22px;
+  transition: box-shadow 0.2s, transform 0.16s;
+  border-top: 7px solid #faab5d;
 }
+.product-card.apricot { border-top-color: var(--color-apricot); }
+.product-card.raisin { border-top-color: var(--color-raisin); }
+.product-card.walnut { border-top-color: var(--color-walnut); }
+.product-card.almond { border-top-color: var(--color-almond); }
+.product-card.prune { border-top-color: var(--color-prune); }
 .product-card:hover {
-  box-shadow: 0 12px 36px rgba(247,151,72,0.20);
-  border-color: var(--accent-brown);
-  transform: scale(1.04);
-  background: var(--accent-orange);
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 16px 36px rgba(138,97,67,0.17);
 }
 
 .product-card img {
-  width: 92px;
-  height: 92px;
+  width: 96px;
+  height: 96px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--accent-green);
-  box-shadow: 0 4px 16px rgba(185,206,155,0.17);
-  margin-bottom: 12px;
-  background: #fff;
+  box-shadow: 0 2px 18px rgba(250,171,93,0.10);
+  margin-bottom: 14px;
 }
 
 .product-card h3 {
-  margin: 11px 0 6px 0;
-  font-size: 1.15rem;
-  color: var(--accent-brown);
+  font-size: 1.20rem;
+  color: var(--color-raisin);
+  letter-spacing: .01em;
+  margin: 7px 0 9px 0;
 }
 
 .product-card p {
-  font-size: 1.02rem;
-  margin: 0 0 9px 0;
-  color: #663613;
+  font-size: 1.03rem;
+  margin: 0 0 10px 0;
+  color: #524028;
 }
 
 .price {
-  color: var(--accent-green);
-  font-size: 1.12rem;
+  color: var(--color-apricot);
   font-weight: bold;
-  margin-bottom: 8px;
+  font-size: 1.18rem;
+  letter-spacing: .01em;
+  margin-bottom: 9px;
 }
 
 .btn {
-  background: var(--accent-orange);
-  color: #fff;
   border: none;
   border-radius: 8px;
-  font-weight: 500;
-  font-size: 1rem;
-  padding: 10px 24px;
-  margin: 8px 0 0 0;
-  box-shadow: 0 2px 12px rgba(247,151,72,0.07);
+  padding: 10px 26px;
+  font-size: 1.08rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.19s, box-shadow 0.19s;
+  background: var(--btn-gradient);
+  color: #fff;
+  margin: 8px 0 0 0;
+  box-shadow: 0 2px 10px rgba(250,171,93,0.09);
+  transition: background 0.17s, box-shadow 0.16s, transform 0.14s;
 }
 .btn:hover {
-  background: var(--accent-brown);
-  box-shadow: 0 5px 16px rgba(156,100,50,0.19);
+  background: linear-gradient(90deg, #faab5d 0%, #e8c7a9 80%, #85598f 100%);
+  box-shadow: 0 7px 23px rgba(130, 60, 160,0.10);
+  transform: scale(1.05);
 }
 
-/* Адаптивность для мобилок */
-@media (max-width: 700px) {
-  .product-list { flex-direction: column; align-items: center; gap: 20px;}
-  .product-card { width: 94%; }
+@media (max-width: 800px) {
+  .product-list { flex-direction: column; align-items: center; gap: 24px;}
+  .product-card { width: 98%; }
 }
