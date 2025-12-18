@@ -39,7 +39,7 @@ const I18N = {
     p_pack_200_500_1: "Фасування: 200г / 500г / 1кг",
 
     p_prune_title: "Чорнослив без кісточки",
-    p_prune_desc: "М'який, соковитий чоМ’який, еластичний чорнослив без кісточки. Кісточку акуратно видалено, ягоди готові до споживання та ідеально підходять для десертів, випічки, каш, йогурту та дитячого харчування. Калібри (кількість плодів у 500 г): 30/44 (Giant) – дуже великий чорнослив, до 44 плодів на 500 г. 44/55 (Very Large) – великий калібр для фасування та роздрібної торгівлі. 55/66 (Large) – середній калібр. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – дрібний калібр, зручний для мюслі, граноли та кондитерських виробів. Особливості: Без кісточки, зручно їсти та використовувати в рецептах. Високий вміст харчових волокон, калію та антиоксидантів, підтримує здорове травлення та загальний тонус.рнослив преміум-класу. Великі плоди з насиченим смаком.",
+    p_prune_desc: "Калібри (кількість плодів у 500 г): 30/44 (Giant) – дуже великий чорнослив, до 44 плодів на 500 г. 44/55 (Very Large) – великий калібр для фасування та роздрібної торгівлі. 55/66 (Large) – середній калібр. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – дрібний калібр, зручний для мюслі, граноли та кондитерських виробів.",
     p_prune_price: "від ₴110/кг",
 
     p_apricot_title: "Курага (абрикос сушений)",
@@ -129,7 +129,7 @@ const I18N = {
     p_pack_200_500_1: "Фасовка: 200г / 500г / 1кг",
 
     p_prune_title: "Чернослив без косточки",
-    p_prune_desc: "Мягкий, эластичный чернослив без косточки. Косточка аккуратно удалена, ягоды готовы к употреблению и идеально подходят для десертов, выпечки, каш, йогурта и детского питания.​ Калибры (количество плодов в 500 г):​ 30/44 (Giant) – очень крупный чернослив, до 44 плодов на 500 г. 44/55 (Very Large) – крупный калибр для фасовки и розницы. 55/66 (Large) – средний калибр. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – мелкий калибр, удобен для мюсли, гранолы и кондитерских изделий. Особенности: Без косточки, удобно есть и использовать в рецептах. Высокое содержание пищевых волокон, калия и антиоксидантов, поддерживает здоровое пищеварение и общий тонус.​",
+    p_prune_desc: "Калибры (количество плодов в 500 г):​ 30/44 (Giant) – очень крупный чернослив, до 44 плодов на 500 г. 44/55 (Very Large) – крупный калибр для фасовки и розницы. 55/66 (Large) – средний калибр. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – мелкий калибр, удобен для мюсли, гранолы и кондитерских изделий.",
     p_prune_price: "от ₴110/кг",
 
     p_apricot_title: "Курага (сушеный абрикос)",
@@ -219,7 +219,7 @@ const I18N = {
     p_pack_200_500_1: "Pack sizes: 200g / 500g / 1kg",
 
     p_prune_title: "Pitted prunes",
-    p_prune_desc: "Soft, elastic pitted prunes. The pit is neatly removed; the fruits are ready to eat and are ideal for desserts, baking, porridge, yogurt, and baby food. Sizes (number of fruits per 500 g): 30/44 (Giant) – extra large prunes, up to 44 fruits per 500g. 44/55 (Very Large) – large size suitable for packing and retail. 55/66 (Large) – medium size. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – small sizes, convenient for muesli, granola, and confectionery products. Features: Pitted, easy to eat and use in recipes. High in dietary fiber, potassium, and antioxidants; supports healthy digestion and overall vitality.",
+    p_prune_desc: "Sizes (number of fruits per 500 g): 30/44 (Giant) – extra large prunes, up to 44 fruits per 500g. 44/55 (Very Large) – large size suitable for packing and retail. 55/66 (Large) – medium size. 66/77 (Medium), 77/99 (Small), 99/122 (Very Small) – small sizes, convenient for muesli, granola, and confectionery products.",
     p_prune_price: "from ₴110/kg",
 
     p_apricot_title: "Dried apricots",
