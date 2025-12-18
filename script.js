@@ -18,9 +18,8 @@ const I18N = {
     btn_contact: "Зв'язатися з нами",
     btn_order: "Замовити",
 
-    hero_title: "Відкрийте смак сонця",
-    hero_subtitle: "Сухофрукти та горіхи – природний смак і сонячна енергія в кожній жмені!",
-
+    hero_title: "Tajibaeva Zeboxon",
+    hero_subtitle: "Обираємо тільки найкращу сировину. Уся продукція виготовляється лише в заводських умовах.",
     feat_1_title: "Багатий смак",
     feat_1_desc: "Перевірені постачальники",
     feat_2_title: "Гарантія якості",
@@ -77,7 +76,7 @@ const I18N = {
     contacts_subtitle:
       "Ведете бізнес, магазин чи просто бажаєте придбати більшу кількість наших продуктів?<br>Зв'яжіться з нашим представником!",
 
-    footer_text: "© 2025 SunDry. Натуральні сухофрукти та горіхи преміум-якості. Всі права захищені.",
+    footer_text: "© 2025 Tajibaeva Zeboxon. Натуральні сухофрукти та горіхи преміум-якості. Всі права захищені.",
 
     // Modal
     modal_order_title: "Замовлення",
@@ -108,8 +107,8 @@ const I18N = {
     btn_contact: "Связаться с нами",
     btn_order: "Заказать",
 
-    hero_title: "Откройте вкус солнца",
-    hero_subtitle: "Сухофрукты и орехи — природный вкус и солнечная энергия в каждой горсти!",
+    hero_title: "Tajibaeva Zeboxon",
+    hero_subtitle: "Выбираем только лучшую сыровину. Вся продукция изготавливается только в заводских условиях.",
 
     feat_1_title: "Насыщенный вкус",
     feat_1_desc: "Проверенные поставщики",
@@ -167,7 +166,7 @@ const I18N = {
     contacts_subtitle:
       "Есть бизнес, магазин или хотите купить больший объем продукции?<br>Свяжитесь с нашим представителем!",
 
-    footer_text: "© 2025 SunDry. Натуральные сухофрукты и орехи премиум-качества. Все права защищены.",
+    footer_text: "© 2025 Tajibaeva Zeboxon. Натуральные сухофрукты и орехи премиум-качества. Все права защищены.",
 
     // Modal
     modal_order_title: "Заказ",
@@ -198,8 +197,8 @@ const I18N = {
     btn_contact: "Contact us",
     btn_order: "Order",
 
-    hero_title: "Discover the taste of the sun",
-    hero_subtitle: "Dried fruits and nuts — natural taste and sunny energy in every handful!",
+    hero_title: "Tajibaeva Zeboxon",
+    hero_subtitle: "We select only the finest raw materials. All products are manufactured exclusively in factory conditions.",
 
     feat_1_title: "Rich taste",
     feat_1_desc: "Trusted suppliers",
@@ -257,7 +256,7 @@ const I18N = {
     contacts_subtitle:
       "Have a business/store or want to buy larger quantities?<br>Contact our representative!",
 
-    footer_text: "© 2025 SunDry. Premium dried fruits and nuts. All rights reserved.",
+    footer_text: "© 2025 Tajibaeva Zeboxon. Premium dried fruits and nuts. All rights reserved.",
 
     // Modal
     modal_order_title: "Order",
