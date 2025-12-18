@@ -63,7 +63,7 @@ const I18N = {
     about_p2: "Контролюємо якість від сировини до пакування, щоб продукт відповідав найвищим стандартам.",
 
     why_title: "Чому обирають нас",
-    why_1_title: "Українська компанія",
+    why_1_title: "Узбекська компанія",
     why_1_desc: "Прозорі процеси, легка комунікація та довгострокове партнерство",
     why_2_title: "Товар у наявності",
     why_2_desc: "Швидка відправка та надійне пакування",
@@ -153,7 +153,7 @@ const I18N = {
     about_p2: "Контролируем качество от сырья до упаковки, чтобы продукт соответствовал высоким стандартам.",
 
     why_title: "Почему выбирают нас",
-    why_1_title: "Украинская компания",
+    why_1_title: "Узбекская компания",
     why_1_desc: "Прозрачные процессы, удобная коммуникация и долгосрочное партнерство",
     why_2_title: "Товар в наличии",
     why_2_desc: "Быстрая отправка и надежная упаковка",
@@ -204,7 +204,7 @@ const I18N = {
     feat_1_desc: "Trusted suppliers",
     feat_2_title: "Quality guarantee",
     feat_2_desc: "International certificates",
-    feat_3_title: "Ukrainian company",
+    feat_3_title: "Uzbek company",
     feat_3_desc: "Transparent processes",
     feat_4_title: "In stock",
     feat_4_desc: "Fast delivery",
